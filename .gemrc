@@ -1,0 +1,8 @@
+---
+:update_sources: true
+:benchmark: false
+:backtrace: false
+:bulk_threshold: 1000
+:verbose: true
+gem: --no-ri --no-rdoc
+

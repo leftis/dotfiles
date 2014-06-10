@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/leftis/Desktop/projects/foralesson/app/models'
+let g:netrw_dirhist_2='/Users/leftis/Desktop/projects/foralesson'
+let g:netrw_dirhist_3='/Users/leftis/Desktop/projects/foralesson/app'
+let g:netrw_dirhist_4='/Users/leftis/Desktop/projects/foralesson/app/models'
+let g:netrw_dirhist_5='/Users/leftis/Desktop/projects/foralesson'
