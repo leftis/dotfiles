@@ -38,6 +38,9 @@ set nofoldenable
 set nojoinspaces
 set autoread
 
+set nobackup
+set nowritebackup
+
 " Leader
 let mapleader=","
 
@@ -57,17 +60,17 @@ Plugin 'kien/ctrlp.vim.git'
 Plugin 'scrooloose/nerdcommenter.git'
 Plugin 'ack.vim'
 Plugin 'tpope/vim-fugitive.git'
-Plugin 'ngmy/vim-rubocop'
-Plugin 'zenorocha/dracula-theme'
-Plugin 'kchmck/vim-coffee-script'
-
-syntax on
+Plugin 'ngmy/vim-rubocop.git'
+Plugin 'kchmck/vim-coffee-script.git'
+Plugin 'wting/rust.vim'
 
 call vundle#end()
 
 set t_Co=256 " 256 colors
 set background=dark
 colorscheme grb256
+"colorscheme badwolf
+syntax on
 
 hi Normal ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=#282a36 gui=NONE
 
@@ -163,3 +166,7 @@ function! TrimWhiteSpace()
 endfunction
 autocmd BufWritePre *.* :call TrimWhiteSpace()
 " Trailing whitespaces
+
+" Flog
+" cyclomatic
+:silent exe "g:flog_enable"
