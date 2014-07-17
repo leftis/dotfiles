@@ -11,6 +11,7 @@ alias o='sublime'
 # Some application shortcuts.
 alias gr="grep -EiRn --color=tty"
 
+alias pg='psql'
 # Git aliases
 alias g="git"
 alias gst="git st"
